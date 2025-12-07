@@ -1,0 +1,50 @@
+# ============================
+# 1. Cache & virtual env
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.venv/
+.env
+
+# ============================
+# 2. Notebook & laporan
+# ============================
+*.ipynb
+LAPORAN.md
+README.md
+
+# ============================
+# 3. SEMUA isi folder data
+#    (kita whitelist yg penting di bawah)
+# ============================
+data/*
+
+# ===== Whitelist file data yg dipakai runtime =====
+!data/inverted_index.json
+!data/doc_meta.csv
+!data/urls.txt
+# kalau API kamu butuh ini juga, buka komentar:
+# !data/scraped_cleaned.csv
+# !data/search_functions.pkl
+
+# ============================
+# 4. Script helper yg cuma dipakai offline
+# ============================
+backfill_all_images.py
+crawling.py
+debug_eval.py
+debug_ground_truth.py
+evaluation.py
+evaluator.py
+generate_ground_truth.py
+rescrape_images.py
+scrape_articles.py
+
+# ============================
+# 5. Gambar / media
+# ============================
+*.png

@@ -1,0 +1,105 @@
+{
+  "tfidf_summary": {
+    "algorithm": "TF-IDF",
+    "avg_precision": 0.9,
+    "avg_recall": 0.043688657896335935,
+    "avg_f1": 0.08134052184572096,
+    "MAP": 0.04020298907366397
+  },
+  "bm25_summary": {
+    "algorithm": "BM25",
+    "avg_precision": 1.0,
+    "avg_recall": 0.05288401423472078,
+    "avg_f1": 0.09811846250341204,
+    "MAP": 0.05288401423472078
+  },
+  "test_queries": [
+    {
+      "query": "wisata pantai Bali",
+      "keywords": [
+        "pantai",
+        "bali"
+      ],
+      "description": "Mencari informasi wisata pantai di Bali"
+    },
+    {
+      "query": "hotel murah Jakarta",
+      "keywords": [
+        "hotel",
+        "jakarta"
+      ],
+      "description": "Mencari hotel terjangkau di Jakarta"
+    },
+    {
+      "query": "gunung Bromo sunrise",
+      "keywords": [
+        "bromo",
+        "sunrise"
+      ],
+      "description": "Informasi sunrise di Gunung Bromo"
+    },
+    {
+      "query": "kuliner Yogyakarta",
+      "keywords": [
+        "kuliner",
+        "yogyakarta",
+        "jogja"
+      ],
+      "description": "Tempat kuliner di Yogyakarta"
+    },
+    {
+      "query": "tempat wisata Bandung",
+      "keywords": [
+        "wisata",
+        "bandung"
+      ],
+      "description": "Destinasi wisata di Bandung"
+    },
+    {
+      "query": "diving Bunaken",
+      "keywords": [
+        "diving",
+        "bunaken",
+        "snorkel"
+      ],
+      "description": "Aktivitas diving di Bunaken"
+    },
+    {
+      "query": "candi Borobudur",
+      "keywords": [
+        "candi",
+        "borobudur"
+      ],
+      "description": "Informasi Candi Borobudur"
+    },
+    {
+      "query": "taman nasional komodo",
+      "keywords": [
+        "komodo",
+        "taman nasional"
+      ],
+      "description": "Wisata Taman Nasional Komodo"
+    },
+    {
+      "query": "danau Toba",
+      "keywords": [
+        "danau",
+        "toba"
+      ],
+      "description": "Wisata Danau Toba"
+    },
+    {
+      "query": "rafting Sungai Ayung",
+      "keywords": [
+        "rafting",
+        "ayung"
+      ],
+      "description": "Aktivitas rafting di Sungai Ayung"
+    }
+  ],
+  "evaluation_settings": {
+    "top_k": 20,
+    "num_queries": 10,
+    "total_documents": 4700
+  }
+}

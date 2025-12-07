@@ -1,0 +1,171 @@
+nohup: ignoring input
+ * Serving Flask app 'api'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.110.219:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\generate_ground_truth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+s-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:27:36] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:27:51] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:27:54] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:28:06] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:28:19] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:28:28] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:29:10] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:29:23] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:29:36] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:29:54] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\search_engine.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:31:01] "GET /search?q=wisata&algo=tfidf&top_k=7 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:32] "GET /search?q=aceh&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:32] "GET /search?q=aceh&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:33] "GET /evaluate?query=aceh&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:39] "GET /search?q=langsa&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:41] "GET /evaluate?query=langsa&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:44] "GET /search?q=aceh&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:48] "GET /search?q=medan&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:31:49] "GET /evaluate?query=medan&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:35:01] "GET /evaluate?query=medan&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:35:12] "GET /search?q=medan&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:35:17] "GET /search?q=medan&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:35:18] "GET /evaluate?query=medan&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:35:42] "GET /evaluate?query=medan&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:36:32] "GET /search?q=pantai&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:36:35] "GET /evaluate?query=pantai&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:36:46] "GET /evaluate?query=pantai&top_k=20 HTTP/1.1" 200 -
+ * Detected change in 'D:\\Tugas-tugas\\Tugas kuliah Milan\\Semester 5\\Penelusuran Informasi\\Project Akhir PI\\backend\\generate_ground_truth.py', reloading
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Warning: Failed to load corpus from data/corpus_clean.csv: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 913-038-117
+127.0.0.1 - - [07/Dec/2025 19:38:52] "GET /search?q=pantai&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:38:53] "GET /evaluate?query=pantai&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:41:02] "GET /search?q=medan&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:41:04] "GET /evaluate?query=medan&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:41:07] "GET /search?q=medan&algo=bm25&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:41:08] "GET /search?q=medan&algo=tfidf&top_k=20 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:41:22] "GET /search?q=pantai&algo=tfidf&top_k=5 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:41:53] "GET /search?q=pantai&algo=tfidf&top_k=5 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Dec/2025 19:42:14] "GET /search?q=pantai&algo=bm25&top_k=5 HTTP/1.1" 200 -

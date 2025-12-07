@@ -1,6 +1,6 @@
-fastapi
-uvicorn[standard]
-pydantic
+flask
+gunicorn
+
 pandas
 numpy
-rank-bm25
+rank_bm25

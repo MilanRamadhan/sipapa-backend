@@ -151,6 +151,41 @@ def evaluate():
 
 
 # ===============================
+# Evaluation Aggregate Endpoint (Mean dari semua queries)
+# ===============================
+@app.get("/evaluate/aggregate")
+def evaluate_aggregate():
+    """
+    Evaluasi agregat untuk SEMUA query di ground truth
+    Mengembalikan MEAN dari semua metrik (Mean Precision, Mean Recall, Mean F1, MAP)
+    """
+    from evaluator import evaluate_all_queries
+    import search_engine as se
+
+    class SearchEngineMock:
+        def search(self, q, algo="tfidf", top_k=20):
+            if algo == "bm25":
+                return se.bm25_search(q, top_k=top_k)
+            else:
+                return se.tfidf_search(q, top_k=top_k)
+
+    try:
+        # Get top_k from query params (default 20)
+        top_k = request.args.get("top_k", default=20, type=int)
+        
+        search_mock = SearchEngineMock()
+        result = evaluate_all_queries(search_mock, top_k=top_k)
+        return jsonify(result)
+    except Exception as e:
+        import traceback
+        return jsonify({
+            "error": "Aggregate evaluation failed",
+            "message": str(e),
+            "traceback": traceback.format_exc()
+        }), 500
+
+
+# ===============================
 # Run Server
 # ===============================
 if __name__ == "__main__":

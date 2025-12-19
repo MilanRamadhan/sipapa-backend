@@ -334,3 +334,103 @@ def evaluate_query_both_algos(query: str, search_engine, top_k: int = 20) -> dic
         "overlap_percentage": round(overlap_percentage, 2),
         "total_relevant": len(relevant_docs)
     }
+
+
+def evaluate_all_queries(search_engine, top_k: int = 20) -> dict:
+    """
+    Evaluasi agregat untuk SEMUA query di ground truth
+    Menghitung MEAN dari semua metrik (seperti contoh teman)
+    
+    Args:
+        search_engine: Instance dari SearchEngine
+        top_k: Jumlah dokumen yang di-retrieve per query
+    
+    Returns:
+        Dict dengan mean metrics untuk TF-IDF dan BM25
+    """
+    evaluator = SearchEvaluator()
+    
+    # Load semua queries dari ground truth
+    if not evaluator.ground_truth:
+        return {
+            "error": "No ground truth available",
+            "message": "Ground truth file not found or empty"
+        }
+    
+    queries = list(evaluator.ground_truth.keys())
+    
+    tfidf_metrics = {
+        "precision": [],
+        "recall": [],
+        "f1": [],
+        "ap": [],
+        "runtime": []
+    }
+    
+    bm25_metrics = {
+        "precision": [],
+        "recall": [],
+        "f1": [],
+        "ap": [],
+        "runtime": []
+    }
+    
+    total_queries = len(queries)
+    
+    print(f"\n📊 Evaluating {total_queries} queries...")
+    
+    for i, query in enumerate(queries, 1):
+        print(f"  [{i}/{total_queries}] Query: {query[:30]}...")
+        
+        result = evaluate_query_both_algos(query, search_engine, top_k)
+        
+        # Collect TF-IDF metrics
+        tfidf_metrics["precision"].append(result["tfidf"]["precision"])
+        tfidf_metrics["recall"].append(result["tfidf"]["recall"])
+        tfidf_metrics["f1"].append(result["tfidf"]["f1"])
+        tfidf_metrics["ap"].append(result["tfidf"]["ap"])
+        tfidf_metrics["runtime"].append(result["tfidf"]["runtime"])
+        
+        # Collect BM25 metrics
+        bm25_metrics["precision"].append(result["bm25"]["precision"])
+        bm25_metrics["recall"].append(result["bm25"]["recall"])
+        bm25_metrics["f1"].append(result["bm25"]["f1"])
+        bm25_metrics["ap"].append(result["bm25"]["ap"])
+        bm25_metrics["runtime"].append(result["bm25"]["runtime"])
+    
+    # Calculate means
+    tfidf_mean = {
+        "mean_precision": np.mean(tfidf_metrics["precision"]),
+        "mean_recall": np.mean(tfidf_metrics["recall"]),
+        "mean_f1": np.mean(tfidf_metrics["f1"]),
+        "mean_ap": np.mean(tfidf_metrics["ap"]),  # This is MAP!
+        "mean_runtime": np.mean(tfidf_metrics["runtime"]),
+        "std_precision": np.std(tfidf_metrics["precision"]),
+        "std_recall": np.std(tfidf_metrics["recall"]),
+        "std_f1": np.std(tfidf_metrics["f1"]),
+        "std_ap": np.std(tfidf_metrics["ap"])
+    }
+    
+    bm25_mean = {
+        "mean_precision": np.mean(bm25_metrics["precision"]),
+        "mean_recall": np.mean(bm25_metrics["recall"]),
+        "mean_f1": np.mean(bm25_metrics["f1"]),
+        "mean_ap": np.mean(bm25_metrics["ap"]),  # This is MAP!
+        "mean_runtime": np.mean(bm25_metrics["runtime"]),
+        "std_precision": np.std(bm25_metrics["precision"]),
+        "std_recall": np.std(bm25_metrics["recall"]),
+        "std_f1": np.std(bm25_metrics["f1"]),
+        "std_ap": np.std(bm25_metrics["ap"])
+    }
+    
+    print(f"\n✅ Evaluation complete!")
+    print(f"   TF-IDF MAP: {tfidf_mean['mean_ap']:.4f}")
+    print(f"   BM25 MAP:   {bm25_mean['mean_ap']:.4f}")
+    
+    return {
+        "total_queries": total_queries,
+        "top_k": top_k,
+        "tfidf": tfidf_mean,
+        "bm25": bm25_mean,
+        "queries_evaluated": queries
+    }
